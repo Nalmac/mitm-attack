@@ -1,0 +1,18 @@
+[
+  {
+    "file": "src/dhcp.c",
+    "arguments": [
+      "gcc",
+      "-g",
+      "-Wall",
+      "-Wextra",
+      "-Iinclude",
+      "-o",
+      "build/dhcp.o",
+      "-c",
+      "src/dhcp.c"
+    ],
+    "directory": "/home/simon/Documents/POLYTECHNIQUE/MODAL/code/challengeTheta",
+    "output": "build/dhcp.o"
+  }
+]
