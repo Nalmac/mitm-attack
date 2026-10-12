@@ -1,5 +1,4 @@
 #include "host_table.h"
-#include "dns_parser.h"
 #include <netinet/in.h>
 #include <string.h>
 
