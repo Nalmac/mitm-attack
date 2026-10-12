@@ -16,9 +16,8 @@ Obviously, this is where `dns_parser.c` and `dns_proxy.c` come into play : the p
 If you wish to try the attack out, please compile the program with `make`. I strongly advise using the lab environment to try and mitigate any leak into a used network, as it can disrupt the service for legitimate users.
 If you choose do use the lab environment, you will have to start a DHCP server on the `lab-srv` namespace. I used dnsmasq to do this in my tests.
 
-!> [!NOTE]
-> In order to execute any command from a network namespace, use this syntax :
->
-> ```bash
-> sudo ip netns execute [namespace] [command] 
->```
+In order to execute any command from a network namespace, use this syntax :
+
+```bash
+sudo ip netns execute [namespace] [command] 
+```
